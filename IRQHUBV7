@@ -192,13 +192,13 @@ local Button = Tab:CreateButton({
    Name = "سكربت ام ام تو يفيدكم 🐇",
    Callback = function() 
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/s-o-a-b/nexus/main/loadstring"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Joystickplays/psychic-octo-invention/main/yarhm.lua", false))()
    end,
 })
 
 local Button = Tab:CreateButton({
    Name = "سكربت ام ام تو فارم 🍃",
-   Callback = function() 
+   Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vertexpeak/vertex/refs/heads/main/loadstring"))()
    end,
