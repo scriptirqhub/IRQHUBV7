@@ -370,6 +370,14 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Key-System-
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "اكـادمـيـه دراجـون الـعـسـكـريـه💀💥",
+   Callback = function() 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/gg.lua.txt'))()
+   end,
+})
+
 Rayfield:Notify({
    Title = "مـنـوريـن الـسـكـربـت🔥",
    Content = "جـار تـحـمـيـل..... ",
