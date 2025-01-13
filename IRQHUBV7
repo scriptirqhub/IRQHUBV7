@@ -5,7 +5,7 @@ local Window = Rayfield:CreateWindow({
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "//IRQ HUB🇮🇶💯//تم التطوير من قبل فريق IRQ",
    LoadingSubtitle = "جـار الـتـحـمـيـل.......",
-   Theme = "Bloom", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Light", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
@@ -24,13 +24,13 @@ local Window = Rayfield:CreateWindow({
 
    KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
-      Title = "Untitled",
-      Subtitle = "Key System",
-      Note = "No method of obtaining the key is provided", -- Use this to tell the user how to get a key
+      Title = "IRQ HUB🔥🥵",
+      Subtitle = "الـسـكـربـت فـقـط لـلاعـضـاء🚀",
+      Note = "اذا تـريـد المـفـتـاح تـواصـل مـعـنا...انسته✨vene.221", -- Use this to tell the user how to get a key
       FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"https://pastefy.app/kNDQKokY/raw"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("https://pastefy.app/kNDQKokY/raw","https://pastefy.app/kNDQKokY/raw")
    }
 })
 
@@ -183,7 +183,6 @@ local Section = Tab:CreateSection("السكـربـتات : ")
 local Button = Tab:CreateButton({
    Name = "سكربت ام ام تو عربي 🔫",
    Callback = function() 
-
 loadstring(game:HttpGet"https://raw.githubusercontent.com/Au0yX/Community/main/XhubMM2")("https://t.me/arceusxscripts")
    end,
 })
@@ -201,6 +200,173 @@ local Button = Tab:CreateButton({
    Callback = function()
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/vertexpeak/vertex/refs/heads/main/loadstring"))()
+   end,
+})
+
+local Tab = Window:CreateTab("سـكـربـتـات Brookhaven 🏡🔥") -- Title, Image
+
+local Section = Tab:CreateSection("Brookhaven 🏠🔥:")
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الهـلال (الرحمه)🌙",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/n0kc/AtomicHub/main/Map-Al-Biout.lua"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "افضل سكربت عربي لماب البيوت🥵",
+   Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-JG-26301"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سـكـربـت جـ**😉",
+   Callback = function() loadstring(game:HttpGet("https://pastefy.app/YZoglOyJ/raw"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "fling🔥",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/0Ben1/fe./main/Fling%20GUI"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "طيران💯",
+   Callback = function() loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\40\39\104\116\116\112\115\58\47\47\103\105\115\116\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\109\101\111\122\111\110\101\89\84\47\98\102\48\51\55\100\102\102\57\102\48\97\55\48\48\49\55\51\48\52\100\100\100\54\55\102\100\99\100\51\55\48\47\114\97\119\47\101\49\52\101\55\52\102\52\50\53\98\48\54\48\100\102\53\50\51\51\52\51\99\102\51\48\98\55\56\55\48\55\52\101\98\51\99\53\100\50\47\97\114\99\101\117\115\37\50\53\50\48\120\37\50\53\50\48\102\108\121\37\50\53\50\48\50\37\50\53\50\48\111\98\102\108\117\99\97\116\111\114\39\41\44\116\114\117\101\41\41\40\41\10\10")()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "صــــــــــــمــــــــــــلـــــــــــــــه💯",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/evxncodes/mainroblox/main/anti-afk", true))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت R4D 🚀",
+   Callback = function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت Astri X 😾",
+   Callback = function() loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-AstroXhub-23818"))()
+   end, 
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت اسـطـوري 🌷",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Davizinhofprest/OaiaJaooBaodapega/refs/heads/main/6e8bf16e68877f75%20(1).txt"))()
+   end, 
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Sander 😨",
+   Callback = function() loadstring(game:HttpGet(('https://raw.githubusercontent.com/kigredns/sanderXNewVersion/main/sanderX')))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت rochips universal 😜",
+   Callback = function()
+loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-rochips-universal-18294"))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت الاجسام راس فضائي+خصر والخ.....👾",
+   Callback = function()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/Brookhaven-RP-Free-Script-16614"))() 
+   end,
+})
+local Button = Tab:CreateButton({
+   Name = "سكربت VexHup 🥶 ",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/discord.com/invite/3NN5zTW7h2"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت Brookhaven 🏡",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/TrollGuiMaker/f0rtuit0us-hub/refs/heads/main/old"))()
+   end, 
+})
+
+local Section = Tab:CreateSection("سـكـربـتـات مـتـنـوعـه🤯🔥:")
+
+local Button = Tab:CreateButton({
+   Name = "سكربت يطير اي احد يفعل عليك 🤯",
+   Callback = function()
+   loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-FE-Fling-GUI-10927"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت محد يقدر يطيرك 😃",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/zephyr10101/ignore-touchinterests/main/main",true))() 
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت FBS 😝",
+   Callback = function() loadstringloadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/FPSBooster.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت ايم بوت 🔒",
+   Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ds5x/Scripts-Xhub/refs/heads/main/IMBOT-XHUB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت اختفاء 🤫",
+   Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت كامرة 📷 ",
+   Callback = function() 
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/CCTV%20Camera'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت جودة 😬",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "رقـصـات💃",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name ="كـيـبـورد🤯",
+   Callback = function()
+   loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
+   end,
+})
+
+local Tab = Window:CreateTab("سـكـربـتـات مـابـات مـتـنـــوعـه💯🔥") -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "مـاب الـصـواريـخ🚀🤯",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Key-System--/main/KeySystemm"))()
    end,
 })
 
