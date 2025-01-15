@@ -293,8 +293,6 @@ local Button = Tab:CreateButton({
    end, 
 })
 
-local Section = Tab:CreateSection("سـكـربـتـات مـتـنـوعـه🤯🔥:")
-
 local Button = Tab:CreateButton({
    Name = "سكربت يطير اي احد يفعل عليك 🤯",
    Callback = function()
@@ -360,7 +358,9 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("سـكـربـتـات مـابـات مـتـنـــوعـه💯🔥") -- Title, Image
+local Tab = Window:CreateTab("كـلـشـي وكـلاشـي💯💥") -- Title, Image
+
+local Section = Tab:CreateSection("الـمـابـات🤯💯")
 
 local Button = Tab:CreateButton({
    Name = "مـاب الـصـواريـخ🚀🤯",
@@ -371,10 +371,56 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nadir3709/Key-System-
 })
 
 local Button = Tab:CreateButton({
-   Name = "اكـادمـيـه دراجـون الـعـسـكـريـه💀💥",
+   Name = "اكـادمـيـه دراجـون الـعـسـكـريـه💀💥//قيد الاصلاح",
    Callback = function() 
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Ndora1/Ndora1/main/gg.lua.txt'))()
+   end,
+})
+
+local Section = Tab:CreateSection("سـكـربـتات تــشـتـغـل كـل الـمـابـات💯💥")
+
+   Name = "سكربت ايم بوت 🔒",
+   Callback = function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ds5x/Scripts-Xhub/refs/heads/main/IMBOT-XHUB"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت اختفاء 🤫",
+   Callback = function()
+
+loadstring(game:HttpGet('https://pastebin.com/raw/AYtzGEPb'))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت كامرة 📷 ",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/mohamed18899/Vew/main/Vew"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "سكربت جودة 😬",
+   Callback = function() 
+
+loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Best-RTX-Script-9042"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "رقـصـات💃",
+   Callback = function()
+   loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Gi7331/scripts/main/Emote.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name ="كـيـبـورد🤯",
+   Callback = function()
+   loadstring(game:HttpGet("https://gist.githubusercontent.com/RedZenXYZ/4d80bfd70ee27000660e4bfa7509c667/raw/da903c570249ab3c0c1a74f3467260972c3d87e6/KeyBoard%2520From%2520Ohio%2520Fr%2520Fr"))()
    end,
 })
 
